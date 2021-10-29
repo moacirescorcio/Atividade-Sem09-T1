@@ -1,6 +1,6 @@
-n = 0
+lista = []
+for c in range(1, 101):
+    lista.append(int(input()))
 
-for c in range(1, 6):
-    n = int(input())
+print(max(lista))
 
-print(max(n))
